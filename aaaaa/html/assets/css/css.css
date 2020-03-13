@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(138, 238, 238);
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headline{
+    color: black;
+}
+
+.name{
+    color: black;
+    width: 500px;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+input{
+    margin-top: 14px;
+    width: 20rem;
+    height: 30px;
+    line-height: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #66ccff;
+    border: 1px solid #66ccfe;
+}
+
+input:hover{
+    cursor:pointer;
+}
